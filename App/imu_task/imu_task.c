@@ -1,5 +1,5 @@
 #include "imu_task.h"
-#include "bmi088driver.h"
+#include "BMI088driver.h"
 #include "MahonyAHRS.h"
 #include "tim.h"
 #include "vofa.h"

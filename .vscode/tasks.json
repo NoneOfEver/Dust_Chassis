@@ -44,6 +44,17 @@
             "preset": "${command:cmake.activeConfigurePresetName}",
             "problemMatcher": [],
             "detail": "CMake 模板 配置 任务"
+        },
+        {
+            "label": "Cmake rebuild",
+            "type": "shell",
+            "command": "cmake -S . -B build -G Ninja ",
+            "group": {
+                "isDefault": false
+            },
+            "problemMatcher": [
+                "$gcc"
+            ]
         }
     ]
 }
